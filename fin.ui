@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>fin</class>
+ <widget class="QDialog" name="fin">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1174</width>
+    <height>744</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget {
+ background:url(:/images/Free_Playing_Cards_Mockup_8.jpg) no-repeat center center fixed/cover;
+}
+QWidget#centralWidget {
+    margin: 0;
+    padding: 0;
+    background-color: red;
+}</string>
+  </property>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>100</y>
+     <width>809</width>
+     <height>311</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="1" column="0">
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QPushButton" name="rejouer">
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+    padding: 10px 15px; /* Espacement interne des boutons */
+ /* Couleur de fond du bouton */
+background : none ; 
+   background-color: rgb(139, 141, 255);
+    color: #ffffff; /* Couleur du texte du bouton */
+    border: 1px solid #45a049; /* Bordure du bouton */
+    border-radius: 9px; /* Coins arrondis du bouton */
+font-size : 18px ; 
+font-family: arial ; 
+width : 100px   ; 
+}
+
+/* Style des boutons au survol */
+QPushButton:hover {
+    background-color: #45a049; /* Couleur de fond au survol */
+}
+/* Style des boutons enfoncés */
+QPushButton:pressed {
+    background-color: #3c823a; /* Couleur de fond lorsque le bouton est enfoncé */
+    border: 1px solid #367532; /* Bordure lorsque le bouton est enfoncé */
+}</string>
+        </property>
+        <property name="text">
+         <string>Rejouer </string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="Quitter_1">
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+    padding: 10px 15px; /* Espacement interne des boutons */
+ /* Couleur de fond du bouton */
+background : none ; 
+   background-color: rgb(139, 141, 255);
+    color: #ffffff; /* Couleur du texte du bouton */
+    border: 1px solid #45a049; /* Bordure du bouton */
+    border-radius: 9px; /* Coins arrondis du bouton */
+font-size : 18px ; 
+font-family: arial ; 
+width : 100px   ; 
+}
+
+/* Style des boutons au survol */
+QPushButton:hover {
+    background-color: #45a049; /* Couleur de fond au survol */
+}
+/* Style des boutons enfoncés */
+QPushButton:pressed {
+    background-color: #3c823a; /* Couleur de fond lorsque le bouton est enfoncé */
+    border: 1px solid #367532; /* Bordure lorsque le bouton est enfoncé */
+}</string>
+        </property>
+        <property name="text">
+         <string>Quitter le jeu </string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="0" column="0">
+     <widget class="QLabel" name="label_final">
+      <property name="styleSheet">
+       <string notr="true">
+QWidget {
+/**    background-color:transparent;**/
+ background:none;
+margin: auto ; 
+position : absolute ; 
+top : 50% ; 
+left : 50% ; 
+transform : translate(-50% , -50% )  ; 
+border : 3px solid black  ; 
+border-radius : 30px ; 
+font-size :35px ; 
+
+border-style : dashed ; ;
+
+
+ /* Couleur de fond pour tous les widgets */
+}
+
+/* Style du formulaire */
+QFormWidget {
+    background-color: #ffffff; /* Couleur de fond du formulaire */
+    border: 5px solid #cccccc; /* Bordure du formulaire */
+    border-radius: 5px; /* Coins arrondis du formulaire */
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

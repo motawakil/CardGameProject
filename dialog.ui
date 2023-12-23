@@ -1,0 +1,678 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1416</width>
+    <height>741</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget {
+ background-color:rgb(223, 219, 249)  ;
+}
+QWidget#centralWidget {
+    margin: 0;
+    padding: 0;
+    background-color: red;
+}</string>
+  </property>
+  <widget class="QPushButton" name="jouer">
+   <property name="geometry">
+    <rect>
+     <x>1050</x>
+     <y>270</y>
+     <width>181</width>
+     <height>211</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:   url(:/images/Free_Playing_Cards_Mockup_7.jpg);
+font-size: 18px ; </string>
+   </property>
+   <property name="text">
+    <string>Distribuer Cartes</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="image_1">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>170</y>
+     <width>141</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+  position: relative; /* Assurez-vous que les autres éléments ont une position relative ou absolue */
+    z-index: 0 ;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="image_5">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>540</y>
+     <width>141</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+    background: transparent;
+ position: absolute  ;
+z-index : 1 ; 
+	
+
+
+
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="image_6">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>540</y>
+     <width>141</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+    background: transparent;
+ position: absolute  ;
+z-index : 1 ; 
+	
+
+
+
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="image_7">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>540</y>
+     <width>141</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background: transparent;
+ position: relative;
+}
+
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="image_8">
+   <property name="geometry">
+    <rect>
+     <x>700</x>
+     <y>540</y>
+     <width>141</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background: transparent;
+ position: relative;
+}
+
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="image_12">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>10</y>
+     <width>131</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background: transparent;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="image_11">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>10</y>
+     <width>131</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background: transparent;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="image_10">
+   <property name="geometry">
+    <rect>
+     <x>500</x>
+     <y>10</y>
+     <width>131</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background: transparent;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="image_9">
+   <property name="geometry">
+    <rect>
+     <x>660</x>
+     <y>10</y>
+     <width>131</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background: transparent;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="skip">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>310</y>
+     <width>91</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-size:18px ; </string>
+   </property>
+   <property name="text">
+    <string>Skip</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>10</y>
+     <width>121</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>10</y>
+     <width>121</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>500</x>
+     <y>10</y>
+     <width>121</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>660</x>
+     <y>10</y>
+     <width>121</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="image_2">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>170</y>
+     <width>141</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">  position: relative; /* Assurez-vous que les autres éléments ont une position relative ou absolue */
+    z-index: 1;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="image_4">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>350</y>
+     <width>141</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"> position: relative;
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="image_3">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>350</y>
+     <width>141</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"> position: relative;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="image_13">
+   <property name="geometry">
+    <rect>
+     <x>490</x>
+     <y>170</y>
+     <width>141</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">  position: relative; /* Assurez-vous que les autres éléments ont une position relative ou absolue */
+    z-index: 1;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="image_15">
+   <property name="geometry">
+    <rect>
+     <x>690</x>
+     <y>170</y>
+     <width>141</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">  position: relative; /* Assurez-vous que les autres éléments ont une position relative ou absolue */
+    z-index: 1;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="image_16">
+   <property name="geometry">
+    <rect>
+     <x>710</x>
+     <y>350</y>
+     <width>141</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"> position: relative;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="image_14">
+   <property name="geometry">
+    <rect>
+     <x>500</x>
+     <y>350</y>
+     <width>141</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"> position: relative;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>30</y>
+     <width>151</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <widget class="QLabel" name="name_2">
+      <property name="styleSheet">
+       <string notr="true">QLabel{
+font-size : 20px ; 
+text-align : center ; font-family: &quot;Arial&quot;, sans-serif;
+color : rgb(31, 31, 31); 
+font-weight: bold;
+font-style: italic; /* Options: normal, italic, or oblique */
+border: 1px solid black; 
+
+}</string>
+      </property>
+      <property name="text">
+       <string>  Motaouakel</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QLabel" name="lblTimer">
+   <property name="geometry">
+    <rect>
+     <x>970</x>
+     <y>20</y>
+     <width>211</width>
+     <height>82</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+font-size : 32px ; 
+
+font-widht : bold ; 
+
+text-align : center ;
+ font-family : arial ;</string>
+   </property>
+   <property name="text">
+    <string>             time</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>860</x>
+     <y>110</y>
+     <width>410</width>
+     <height>79</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_3">
+    <item>
+     <widget class="QPushButton" name="continuer">
+      <property name="styleSheet">
+       <string notr="true">
+/* Style des boutons */
+QPushButton {
+    padding: 10px 15px; /* Espacement interne des boutons */
+    background-color: rgb(139, 141, 255); /* Couleur de fond du bouton */
+    color: #ffffff; /* Couleur du texte du bouton */
+    border: 1px solid #45a049; /* Bordure du bouton */
+    border-radius: 9px; /* Coins arrondis du bouton */
+font-size : 18px ; 
+font-family: arial ; 
+width : 100px   ; 
+}
+
+/* Style des boutons au survol */
+QPushButton:hover {
+    background-color: #45a049; /* Couleur de fond au survol */
+}
+/* Style des boutons enfoncés */
+QPushButton:pressed {
+    background-color: #3c823a; /* Couleur de fond lorsque le bouton est enfoncé */
+    border: 1px solid #367532; /* Bordure lorsque le bouton est enfoncé */
+}</string>
+      </property>
+      <property name="text">
+       <string>continuer </string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="stop">
+      <property name="styleSheet">
+       <string notr="true">
+
+/* Style des boutons */
+QPushButton {
+    padding: 10px 15px; /* Espacement interne des boutons */
+    background-color: rgb(139, 141, 255); /* Couleur de fond du bouton */
+    color: #ffffff; /* Couleur du texte du bouton */
+    border: 1px solid #45a049; /* Bordure du bouton */
+    border-radius: 9px; /* Coins arrondis du bouton */
+font-size : 18px ; 
+font-family: arial ; 
+width : 100px   ; 
+}
+
+/* Style des boutons au survol */
+QPushButton:hover {
+    background-color: #45a049; /* Couleur de fond au survol */
+}
+/* Style des boutons enfoncés */
+QPushButton:pressed {
+    background-color: #3c823a; /* Couleur de fond lorsque le bouton est enfoncé */
+    border: 1px solid #367532; /* Bordure lorsque le bouton est enfoncé */
+}</string>
+      </property>
+      <property name="text">
+       <string>stop</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="reset">
+      <property name="styleSheet">
+       <string notr="true">
+/* Style des boutons */
+QPushButton {
+    padding: 10px 15px; /* Espacement interne des boutons */
+    background-color: rgb(139, 141, 255); /* Couleur de fond du bouton */
+    color: #ffffff; /* Couleur du texte du bouton */
+    border: 1px solid #45a049; /* Bordure du bouton */
+    border-radius: 9px; /* Coins arrondis du bouton */
+font-size : 18px ; 
+font-family: arial ; 
+width : 100px   ; 
+}
+
+/* Style des boutons au survol */
+QPushButton:hover {
+    background-color: #45a049; /* Couleur de fond au survol */
+}
+/* Style des boutons enfoncés */
+QPushButton:pressed {
+    background-color: #3c823a; /* Couleur de fond lorsque le bouton est enfoncé */
+    border: 1px solid #367532; /* Bordure lorsque le bouton est enfoncé */
+}</string>
+      </property>
+      <property name="text">
+       <string>reset</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QTextEdit" name="bot_score">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>80</y>
+     <width>151</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-size : 28px ; 
+text-align : center ;
+padding-left : 60px ; 
+ font-family : arialrgb(50, 50, 50) ;
+border: 1px solid black; 
+</string>
+   </property>
+   <property name="html">
+    <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+hr { height: 1px; border-width: 0; }
+li.unchecked::marker { content: &quot;\2610&quot;; }
+li.checked::marker { content: &quot;\2612&quot;; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Segoe UI'; font-size:28px; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:20pt; font-weight:700; font-style:italic;&quot;&gt;0&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:20pt; font-weight:700; font-style:italic;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="user_score">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>620</y>
+     <width>149</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-size : 28px ; 
+text-align : center ;
+padding-left : 60px ; 
+ font-family : arialrgb(50, 50, 50) ;
+border: 1px solid black; 
+</string>
+   </property>
+   <property name="html">
+    <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+hr { height: 1px; border-width: 0; }
+li.unchecked::marker { content: &quot;\2610&quot;; }
+li.checked::marker { content: &quot;\2612&quot;; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Segoe UI'; font-size:28px; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:20pt; font-weight:700; font-style:italic;&quot;&gt;0&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:20pt; font-weight:700; font-style:italic;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="name">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>560</y>
+     <width>149</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{
+font-size : 20px ; 
+text-align : center ; font-family: &quot;Arial&quot;, sans-serif;
+color : rgb(31, 31, 31); 
+font-weight: bold;
+font-style: italic; /* Options: normal, italic, or oblique */
+border: 1px solid black; 
+
+}</string>
+   </property>
+   <property name="text">
+    <string>         user</string>
+   </property>
+  </widget>
+  <zorder>layoutWidget</zorder>
+  <zorder>image_12</zorder>
+  <zorder>jouer</zorder>
+  <zorder>image_1</zorder>
+  <zorder>image_5</zorder>
+  <zorder>image_6</zorder>
+  <zorder>image_7</zorder>
+  <zorder>image_8</zorder>
+  <zorder>image_11</zorder>
+  <zorder>image_10</zorder>
+  <zorder>image_9</zorder>
+  <zorder>skip</zorder>
+  <zorder>label_3</zorder>
+  <zorder>label_4</zorder>
+  <zorder>label_5</zorder>
+  <zorder>label_6</zorder>
+  <zorder>image_2</zorder>
+  <zorder>image_4</zorder>
+  <zorder>image_3</zorder>
+  <zorder>image_13</zorder>
+  <zorder>image_15</zorder>
+  <zorder>image_16</zorder>
+  <zorder>image_14</zorder>
+  <zorder>lblTimer</zorder>
+  <zorder>layoutWidget</zorder>
+  <zorder>bot_score</zorder>
+  <zorder>user_score</zorder>
+  <zorder>name</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

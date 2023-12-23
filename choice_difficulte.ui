@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>choice_difficulte</class>
+ <widget class="QDialog" name="choice_difficulte">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1176</width>
+    <height>743</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">
+QWidget {
+ background:url(:/images/Free_Playing_Cards_Mockup_3.jpg) ;  no-repeat center center fixed/cover;
+}
+QWidget#centralWidget {
+    margin: 0;
+    padding: 0;
+    background-color: red;
+}</string>
+  </property>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>540</y>
+     <width>291</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    padding: 10px 15px; /* Espacement interne des boutons */
+ /* Couleur de fond du bouton */
+background : none ; 
+   background-color: rgb(139, 141, 255);
+    color: #ffffff; /* Couleur du texte du bouton */
+    border: 1px solid #45a049; /* Bordure du bouton */
+    border-radius: 9px; /* Coins arrondis du bouton */
+font-size : 18px ; 
+font-family: arial ; 
+width : 100px   ; 
+}
+
+/* Style des boutons au survol */
+QPushButton:hover {
+    background-color: #45a049; /* Couleur de fond au survol */
+}
+/* Style des boutons enfoncés */
+QPushButton:pressed {
+    background-color: #3c823a; /* Couleur de fond lorsque le bouton est enfoncé */
+    border: 1px solid #367532; /* Bordure lorsque le bouton est enfoncé */
+}</string>
+   </property>
+   <property name="text">
+    <string>Moyenne</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>620</x>
+     <y>540</y>
+     <width>291</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    padding: 10px 15px; /* Espacement interne des boutons */
+ /* Couleur de fond du bouton */
+background : none ; 
+   background-color: rgb(139, 141, 255);
+    color: #ffffff; /* Couleur du texte du bouton */
+    border: 1px solid #45a049; /* Bordure du bouton */
+    border-radius: 9px; /* Coins arrondis du bouton */
+font-size : 18px ; 
+font-family: arial ; 
+width : 100px   ; 
+}
+
+/* Style des boutons au survol */
+QPushButton:hover {
+    background-color: #45a049; /* Couleur de fond au survol */
+}
+/* Style des boutons enfoncés */
+QPushButton:pressed {
+    background-color: #3c823a; /* Couleur de fond lorsque le bouton est enfoncé */
+    border: 1px solid #367532; /* Bordure lorsque le bouton est enfoncé */
+}</string>
+   </property>
+   <property name="text">
+    <string>Difficile</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
